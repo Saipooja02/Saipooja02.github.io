@@ -19,18 +19,18 @@ a:hover {
     text-decoration: underline; 
 }
 
-header {
+/*header {
     text-align: center;
-    padding: 1%;
-}
+    padding: 2px;
+}*/
 
 .index-page {
-    background-image: url('images/port5.jpg'); 
+    background-image: url('images/port9'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh; 
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;text-align: center;
 }
 
 .about {
@@ -90,7 +90,7 @@ header {
 
 .nav a {
     color: white; 
-    text-decoration: none; /* Remove underline */
+    text-decoration:underline; /* Remove underline */
     font-weight: bold;
     font-size: 18px; 
 }
@@ -101,9 +101,9 @@ header {
 
 
 .project-header {
-    background-color: rgb(255, 94, 0); /* Background color for the header */
+    background-color:  rgb(236, 141, 46); /* Background color for the header */
     text-align: center; /* Center the text */
-    padding: 20px; /* Padding for spacing */
+    padding: 10px; /* Padding for spacing */
     font-size: 24px; /* Adjust font size */
 }
 
